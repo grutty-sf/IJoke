@@ -1,7 +1,7 @@
 {
   "name": "joke",
   "version": "1.0.0",
-  "description": "笑话接口",
+  "description": "笑话接口 \api\joke",
   "main": "IJoke.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
