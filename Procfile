@@ -1,1 +1,1 @@
-web:node IJoke.js
+web:node app.js
