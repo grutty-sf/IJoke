@@ -105,4 +105,7 @@ res.writeHead(404)
 res.end()
 }
 
-}).listen(1314);
+var serverPort=process.env.PORT || 1314;
+
+
+}).listen(serverPort);
