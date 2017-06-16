@@ -4,6 +4,8 @@ const url=require('url');
 const superagent=require('superagent');
 const cheerio=require('cheerio');
 
+var serverPort=process.env.PORT || 1314;
+
 function parsetime(time) {
     return {
         hour: time.getHours(),
@@ -105,7 +107,6 @@ res.writeHead(404)
 res.end()
 }
 
-var serverPort=process.env.PORT || 1314;
 
 
 }).listen(serverPort);
