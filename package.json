@@ -1,0 +1,23 @@
+{
+  "name": "joke",
+  "version": "1.0.0",
+  "description": "笑话接口",
+  "main": "IJoke.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grutty-sf/IJoke.git"
+  },
+  "author": "grutty",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.1",
+    "superagent": "^3.5.2",
+  }
+  "bugs": {
+    "url": "https://github.com/grutty-sf/IJoke/issues"
+  },
+  "homepage": "https://github.com/grutty-sf/IJoke#readme"
+}
